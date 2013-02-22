@@ -7,4 +7,4 @@ The original sample was discussed on Yari D'areglia's blog at [here](http://www.
 
 This project adds or subtracts nothing, and merely shows how the exact same code would look in Oxygene "Nougat" and thus serves as an example for how to create custom native iOS controls in the Oxygene language.
 
-![Screenshot](https://github.com/dwarfland/TBCircularSlider-Oxygene/blob/master/README.png)
+![Screenshot](https://raw.github.com/dwarfland/TBCircularSlider-Oxygene/master/README.png)
