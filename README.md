@@ -1,4 +1,4 @@
-# TBCircularSliver (Oxygene)
+# TBCircularSlider (Oxygene)
 ========================
 
 This small sample project is an Oxygene port of the TBCircularSlider example originally by Yari D'areglia.
