@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CircularSlider", "CircularSlider.oxygene", "{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Debug|Default.ActiveCfg = Debug
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Debug|Default.Build.0 = Debug
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Release|Default.ActiveCfg = Release
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
