@@ -6,6 +6,7 @@ uses
   UIKit;
 
 type
+  [IBObject]
   AppDelegate = class(IUIApplicationDelegate)
   private
   public
