@@ -40,9 +40,7 @@
   <ItemGroup>
     <Reference Include="CoreGraphics.fx" />
     <Reference Include="Foundation.fx" />
-    <Reference Include="libTBCircularSlider.fx">
-      <HintPath>..\TBCircularSlider\bin\Debug\iOS Simulator\libTBCircularSlider.fx</HintPath>
-    </Reference>
+    <Reference Include="libNougat.fx" />
     <Reference Include="UIKit.fx" />
     <Reference Include="rtl.fx" />
   </ItemGroup>
@@ -84,6 +82,14 @@
     <Xib Include="RootViewController~iphone.xib">
       <DependentUpon>RootViewController.pas</DependentUpon>
     </Xib>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TBCircularSlider\TBCircularSlider.oxygene">
+      <Name>TBCircularSlider</Name>
+      <Project>{d6339f1d-fddd-4e15-8d0c-131e59283956}</Project>
+      <Private>True</Private>
+      <HintPath>..\TBCircularSlider\bin\Debug\TBCircularSlider.exe</HintPath>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\RemObjects Software\Oxygene\RemObjects.Oxygene.Nougat.targets" />
   <PropertyGroup>

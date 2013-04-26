@@ -283,7 +283,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CircularSlider/CircularSlider-Prefix.pch";
 				INFOPLIST_FILE = "CircularSlider/CircularSlider-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../TBCircularSlider/bin/Debug/iOS\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../TBCircularSlider/bin/Debug/iOS Simulator\"",
 				);
@@ -298,9 +302,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CircularSlider/CircularSlider-Prefix.pch";
 				INFOPLIST_FILE = "CircularSlider/CircularSlider-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../TBCircularSlider/bin/Debug/iOS Simulator\"",
+					"\"$(SRCROOT)/../TBCircularSlider/bin/Release/iOS\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../TBCircularSlider/bin/Release/iOS Simulator\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
