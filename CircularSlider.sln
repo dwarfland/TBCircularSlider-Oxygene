@@ -1,18 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CircularSlider", "CircularSlider.oxygene", "{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}"
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "CircularSlider", "Nougat App\CircularSlider.oxygene", "{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}"
+EndProject
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "TBCircularSlider", "TBCircularSlider\TBCircularSlider.oxygene", "{D6339F1D-FDDD-4E15-8D0C-131E59283956}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Default = Debug|Default
-		Release|Default = Release|Default
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Mixed Platforms = Release|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Debug|Default.ActiveCfg = Debug
-		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Debug|Default.Build.0 = Debug
-		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Release|Default.ActiveCfg = Release
-		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Release|Default.Build.0 = Release
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Debug|Mixed Platforms.Build.0 = Debug
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Release|Mixed Platforms.ActiveCfg = Release
+		{F550EDD5-3D11-49A9-B0AC-9B5C0657F6BC}.Release|Mixed Platforms.Build.0 = Release
+		{D6339F1D-FDDD-4E15-8D0C-131E59283956}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{D6339F1D-FDDD-4E15-8D0C-131E59283956}.Debug|Mixed Platforms.Build.0 = Debug
+		{D6339F1D-FDDD-4E15-8D0C-131E59283956}.Release|Mixed Platforms.ActiveCfg = Release
+		{D6339F1D-FDDD-4E15-8D0C-131E59283956}.Release|Mixed Platforms.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -40,6 +40,9 @@
   <ItemGroup>
     <Reference Include="CoreGraphics.fx" />
     <Reference Include="Foundation.fx" />
+    <Reference Include="libTBCircularSlider.fx">
+      <HintPath>..\TBCircularSlider\bin\Debug\iOS Simulator\libTBCircularSlider.fx</HintPath>
+    </Reference>
     <Reference Include="UIKit.fx" />
     <Reference Include="rtl.fx" />
   </ItemGroup>
@@ -47,7 +50,6 @@
     <Compile Include="AppDelegate.pas" />
     <Compile Include="Program.pas" />
     <Compile Include="RootViewController.pas" />
-    <Compile Include="TBCircularSlider.pas" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Info.plist" />
