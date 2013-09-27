@@ -12,6 +12,8 @@ type
   public
     method init: id; override;
 
+    property preferredStatusBarStyle: UIStatusBarStyle read UIStatusBarStyle.UIStatusBarStyleLightContent; override;
+
     method viewDidLoad; override;
     method didReceiveMemoryWarning; override;
 
