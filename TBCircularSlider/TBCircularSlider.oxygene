@@ -12,7 +12,6 @@
     <AllowUnsafeCode>False</AllowUnsafeCode>
     <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
     <SDK>iOS</SDK>
-    <DeploymentTargetVersion>5.0</DeploymentTargetVersion>
     <CreateHeaderFile>True</CreateHeaderFile>
     <Name>TBCircularSlider</Name>
     <DefaultUses />
@@ -27,7 +26,6 @@
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
     <CaptureConsoleOutput>False</CaptureConsoleOutput>
     <WarnOnCaseMismatch>True</WarnOnCaseMismatch>
-    <Architecture>armv7;armv7s</Architecture>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <Optimize>true</Optimize>
